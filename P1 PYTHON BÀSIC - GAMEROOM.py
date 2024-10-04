@@ -84,7 +84,7 @@ def el_ahorcado():
                     letra = input("Introduce una letra: ").lower()
 
                     if not letra.isalpha() or len(letra) != 1:
-                        print("Por favor, introduce una única letra.")
+                        print("Por favor, introduce una unica letra.")
                         continue
 
                     if letra in letras_usadas:
@@ -114,8 +114,10 @@ if __name__ == "__main__":
             print("Adivina numero")
             adivina_numero()
         elif menu == '2':
+            print("Piedra papel o tijera")
             piedra_papel_tijera()
         elif menu == '3':
+            print("El ahorcado")
             el_ahorcado()
         elif menu == '4':
             print("Saliendo del menu...")
