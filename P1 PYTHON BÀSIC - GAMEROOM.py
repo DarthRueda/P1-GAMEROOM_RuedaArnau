@@ -20,12 +20,12 @@ def adivina_numero():
                         elif intento < numero_secreto:
                             print("El numero es mayor.")
                         elif intento > 10:
-                            print("Por favor, introduce un número del 1 al 10.")
+                            print("Por favor, introduce un numero del 1 al 10.")
                         else:
                             print("El numero es menor.")
                         intentos -= 1
                     except ValueError:
-                        print("Por favor, introduce un número válido.")
+                        print("Por favor, introduce un numero válido.")
                 print(f"Lo siento, no has adivinado el numero. Era {numero_secreto}.")
 #Definicion de la funcion PIedra papel tijera
 def piedra_papel_tijera():
